@@ -1,0 +1,35 @@
+/*main*/
+a{
+	text-decoration: none;
+}
+
+/* header */
+
+/** info_row **/
+.sunplace_header_info_row{
+	align-items: center;
+}
+.sunplace_header_info_row a{
+	color: #000000;
+}
+.sunplace_header_department_menu{
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	grid-gap: 10px;
+}
+.sunplace_header_department_menu>li{
+	margin:0 27px;
+}
+.sunplace_header_department_menu>li:first-child{
+	margin-left: 0;
+}
+.sunplace_header_corpprogramm{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
