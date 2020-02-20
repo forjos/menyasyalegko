@@ -9,7 +9,8 @@
 .flo_container {
     width: 90%;
     margin: 0 auto;
-    padding: 0 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     box-sizing: border-box;
 }
 .flo_container_right {
