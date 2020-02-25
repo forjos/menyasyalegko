@@ -3,6 +3,9 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Roboto', sans-serif;
+	color: #313541;
+	line-height: 1.5;
+	font-size: 14px;
 }
 *{
 	box-sizing: border-box;
@@ -10,6 +13,31 @@ body{
 a{
 	text-decoration: none;
 }
+.sunplace_main>.flo_section{
+	margin-bottom: 2em;
+}
+
+/* type */
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {font-size: 2.441em;}
+
+h3 {font-size: 1.953em;}
+
+h4 {font-size: 1.563em;}
+
+h5 {font-size: 1.25em;}
+
+small, .text_small {font-size: 0.8em;}
 
 /* header */
 
@@ -61,4 +89,235 @@ a{
 }
 .sunplace_header_menu>li:first-child{
 	margin-left:0;
+}
+
+
+
+/*** content ****/
+
+/* main header box */
+.sunplace_genmain_heading_box{
+	margin-top: 17%;
+}
+.sunplace_genmain_heading{
+	font-size: 2em;
+    color: #FF8364;
+    max-width: 280px;
+    margin:1.25em 0;
+}
+.sunplace_genmain_desc{
+	max-width: 370px;
+}
+.sunplace_genmain_desc p{
+	margin: 0  0 1.25em 0;
+}
+.sunplace_genmain_heading_box_form_heading{
+	font-size: .94em;
+	color: #677686;
+}
+.sunplace_genmain_heading_box_form_btn{
+	background: #FF8364;
+    border-radius: 4px;
+    color:#ffffff;
+    display:inline-block;
+    padding: 8px 80px;
+    margin: 4em 0;
+    cursor: pointer;
+}
+/* slider */
+.sunplace_main_slider {
+    width: 540px;
+    height: auto;
+    margin-left: auto;
+    /*margin-right: auto;*/
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.sunplace_main_slider_pagination{
+	position: absolute;
+    text-align: center;
+    transition: .3s opacity;
+    transform: translate3d(0,0,0);
+    z-index: 10;
+}
+.sunplace_main_slide_content{
+	height: 600px;
+	background-color: #F4F7FA;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+}
+/** paginator **/
+.sunplace_main_slider_pagination .swiper-pagination-bullet{
+	background-color:transparent;
+	border: 1px solid #493F39;
+	opacity:1;
+}
+.sunplace_main_slider_pagination .swiper-pagination-bullet-active{
+	background-color:#493F39;
+}
+
+/* steps */
+.sunplace_steps{
+	background-color:#f4f7fa;
+	padding: 40px 0;
+}
+.sunplace_steps>.flo_grid{
+	grid-gap: 50px;
+}
+.sunplace_steps_box {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.sunplace_steps_box i {
+	font-size: 26px;
+    color: #FF8364;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 100%;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+.sunplace_steps_box span {
+	text-align: center;
+	max-width: 120px;
+	font-size: .94em;
+}
+.sunplace_steps_heading {
+	margin-bottom: 30px;
+}
+.sunplace_steps_text p {
+	margin-bottom: 20px;
+	max-width: 340px;
+}
+
+/* services listimg */
+.sunplace_services_listimg_heading{
+	text-align:center;
+	margin: 2em auto 1.5em;
+}
+.sunplace_services_listimg_container{
+	grid-gap: 60px 90px;
+}
+.sunplace_services_listimg_item{
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+    display: block;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.sunplace_services_listimg_img{
+	width:100%;
+	height:210px;
+	background-color: #f4f7fa;
+    background-size: cover;
+    background-position: center;
+}
+.sunplace_services_listimg_infobox{
+    padding:10px 20px;
+}
+.sunplace_services_listimg_name{
+	margin-bottom:1em;
+	color:#000000;
+}
+.sunplace_services_listimg_button{
+    color:#1A9BF7;
+    font-size:.94em;
+}
+
+/* about */
+.flo_section.sunplace_about{
+	margin: 9em auto 7em;
+}
+.sunplace_about_img_wraper{
+	height: 100%;
+	min-height: 340px;
+	width: 100%;
+	max-width: 255px;
+	background-size: cover;
+	background-position: center;
+	transform: translate(40px, 20px);
+	position: relative;
+	z-index: 10;
+}
+.sunplace_about_img{
+	height: 100%;
+	min-height: 340px;
+	width: 100%;
+	max-width: 255px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+}
+.sunplace_about_img:before{
+	content:'';
+	width:100%;
+	height:100%;
+	border: 1px solid #FF8364;
+	position: absolute;
+	left: -40px;
+	top: -20px;
+	z-index: -14;
+	border-radius: 4px;
+}
+.sunplace_about_heading{
+	margin: 0;
+}
+.sunplace_about_subheading{
+	color: #FF8364;
+}
+.sunplace_about_subheading{
+	color: #FF8364;
+	margin: 1em 0;
+	font-size: 1.563em;
+}
+.sunplace_about_descr p{
+	max-width:520px;
+}
+
+/* footer */
+.sunplace_footer{
+	padding:3em 0;
+}
+.sunplace_footer .flo_grid{
+	grid-gap:20px;
+}
+.sunplace_footer .flo_grid>[class*="flo_column"]{
+	border-right:1px solid #DFE6EE;
+}
+.sunplace_footer .flo_grid>[class*="flo_column"]:last-child{
+	border:none;
+}
+.sunplace_footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sunplace_footer a{
+	color: #677686;
+}
+.sunplace_footer_heading{
+	font-size: 1.563em;
+	font-weight: bold;
+	margin-bottom: 1.5em;
+}
+.sunplace_footer_service_menu>li{
+	margin-bottom: 1em; 
+}
+.sunplace_footer_contacts_box{
+	display:flex;
+	flex-direction:column;
+}
+.sunplace_footer_contacts_box>a{
+	margin-bottom: 1em; 
+}
+.sunplace_footer_socnetwork_box>a{
+	margin-right:2em;
+	font-size:1.2em;
+	color:#313541;
 }

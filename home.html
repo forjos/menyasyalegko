@@ -1,45 +1,220 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Menyasyalegko</title>
-	<link rel="stylesheet" href="assets/css/sunplace.css">
-	<link rel="stylesheet" href="assets/css/flo_layout.css">
-	<link rel="stylesheet" href="assets/css/flo_grid.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Menyasyalegko</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1fc7c27e97.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/flo_layout.css">
+    <link rel="stylesheet" href="assets/css/flo_grid.css">
+    <link rel="stylesheet" href="assets/css/sunplace.css">
 </head>
+
 <body>
-	<header class="sunplace_header">
-		<div class="flo_container flo_grid sunplace_header_info_row">
-			<div class="flo_column_sm_2 sunplace_header_logo"><img src="assets/imgwork/logo.svg" alt=""></div>
-			<div class="flo_column_sm_4 sunplace_header_department">
-				<ul class="sunplace_header_department_menu">
-					<li><a href="">Наши услуги</a></li>
-					<li><a href="">Интернет-магазин</a></li>
-				</ul>
-			</div>
-			<div class="flo_column_sm_2 sunplace_header_phone">
-				<a href="">+7 (4722) 52 20 20</a>
-			</div>
-			<div class="flo_column_sm_4 sunplace_header_corpprogramm">
-				<a href="">Корпоративные программы</a>
-			</div>
-		</div>
-		<div class="sunplace_header_menu_block">
-			<div class="flo_container flo_grid">
-				<nav class="sunplace_header_menu_box flo_column_sm_8">
-					<ul class="sunplace_header_menu">
-						<li><a href="">Услуги</a></li>
-						<li><a href="">Бонусная программа</a></li>
-						<li><a href="">Портфолио и сертификаты</a></li>
-						<li><a href="">Мастера</a></li>
-					</ul>
-				</nav>
-				<div class="sunplace_header_bar flo_column_sm_4"></div>
-			</div>
-		</div>
-	</header>
-	<div class="sunplace_main"></div>
-	<footer class="sunplace_footer"></footer>
+    <header class="sunplace_header">
+        <div class="flo_container_max_md flo_grid sunplace_header_info_row">
+            <div class="flo_column_sm_2 sunplace_header_logo"><img src="assets/imgwork/logo.svg" alt=""></div>
+            <div class="flo_column_sm_4 sunplace_header_department">
+                <ul class="sunplace_header_department_menu">
+                    <li><a href="">Наши услуги</a></li>
+                    <li><a href="">Интернет-магазин</a></li>
+                </ul>
+            </div>
+            <div class="flo_column_sm_2 sunplace_header_phone">
+                <a href="">+7 (4722) 52 20 20</a>
+            </div>
+            <div class="flo_column_sm_4 sunplace_header_corpprogramm">
+                <a href="">Корпоративные программы</a>
+            </div>
+        </div>
+        <div class="sunplace_header_menu_block">
+            <div class="flo_container_max_md flo_grid">
+                <nav class="sunplace_header_menu_box flo_column_sm_8">
+                    <ul class="sunplace_header_menu">
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">Бонусная программа</a></li>
+                        <li><a href="">Портфолио и сертификаты</a></li>
+                        <li><a href="">Мастера</a></li>
+                    </ul>
+                </nav>
+                <div class="sunplace_header_bar flo_column_sm_4"></div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <div class="sunplace_main">
+        <div class="flo_section">
+            <div class="flo_container_max_md flo_grid">
+                <div class="flo_column_sm_6">
+                    <div class="sunplace_genmain_heading_box">
+                        <h1 class="sunplace_genmain_heading">Красота и здоровье в удобном формате!</h1>
+                        <div class="sunplace_genmain_desc">
+                            <p>Забудьте про поездки в салоны красоты, ведь десятки квалифицированных специалистов готовы оказать услуги в любое время где бы вы не находились.</p>
+                            <div class="sunplace_genmain_heading_box_form">
+                                <div class="sunplace_genmain_heading_box_form_heading">Оставьте на сайте заявку и наш менеджер подберет оптимальные дату и время визита специалиста.</div>
+                                <div class="sunplace_genmain_heading_box_form_btn">Записаться</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flo_column_sm_6">
+                    <!-- Slider -->
+                    <div class="sunplace_main_slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide sunplace_main_slide">
+                                <div class="sunplace_main_slide_content" style="background-image: url(assets/imgwork/slide1.jpg);"></div>
+                            </div>
+                            <div class="swiper-slide sunplace_main_slide">
+                                <div class="sunplace_main_slide_content" style="background-image: url(assets/imgwork/slide2.jpg);"></div>
+                            </div>
+                            <div class="swiper-slide sunplace_main_slide">
+                                <div class="sunplace_main_slide_content" style="background-image: url(assets/imgwork/slide3.jpg);"></div>
+                            </div>
+                        </div>
+                        <div class="sunplace_main_slider_pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flo_section sunplace_steps">
+            <div class="flo_container_max_md flo_grid">
+                <div class="flo_column_md_7 flo_gridfit_3">
+                    <div class="flo_column_simple sunplace_steps_box"><i class="far fa-calendar-check"></i><span>Оформление<br>заявки</span></div>
+                    <div class="flo_column_simple sunplace_steps_box"><i class="fas fa-phone-alt"></i><span>Звонок сотрудника<br>колл-центра</span></div>
+                    <div class="flo_column_simple sunplace_steps_box"><i class="fas fa-check-double"></i><span>Подтверждение<br>заказа и данных</span></div>
+                    <div class="flo_column_simple sunplace_steps_box"><i class="fas fa-flag"></i><span>Визит<br>специалиста</span></div>
+                </div>
+                <div class="flo_column_md_5 sunplace_steps_text">
+                    <div class="sunplace_steps_heading">
+                        <h5>Минимальные действия – максимальный результат</h5>
+                    </div>
+                    <p>Проверенные специалисты, оказывают широкий спектр услуг для Вас: 7 дней в неделю, с 6:00 до 22:00.</p>
+                    <p>Наши цены доступны и вы всегда можете использовать любую удобную форму оплаты.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flo_section sunplace_services_listimg">
+            <div class="flo_container_max_md">
+                <h2 class="sunplace_services_listimg_heading">Наши услуги</h2>
+                <div class="flo_gridfit_2 sunplace_services_listimg_container">
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service1.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service2.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service3.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service4.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service5.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service6.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service7.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                    <a href="#" class="flo_column_simple sunplace_services_listimg_item">
+                        <div class="sunplace_services_listimg_img" style="background-image: url(assets/imgwork/service8.jpg)"></div>
+                        <div class="sunplace_services_listimg_infobox">
+                            <div class="sunplace_services_listimg_name">Маникюр</div>
+                            <div class="sunplace_services_listimg_button">Подробнее</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="flo_section sunplace_about">
+            <div class="flo_container_max_md flo_grid">
+                <div class="flo_column_md_3 sunplace_about_img_box">
+                	<div class="sunplace_about_img_wraper">
+                		<div class="sunplace_about_img" style="background-image: url(assets/imgwork/about.jpg);"></div>
+                	</div>
+                </div>
+                <div class="flo_column_md_9">
+                	<div class="flo_container_max_xs">
+	                    <h2 class="sunplace_about_heading">О нашей компании</h2>
+	                    <h3 class="sunplace_about_subheading">Кто мы и чем занимаемся</h3>
+	                    <div class="sunplace_about_descr">
+	                    	<p>Вы работаете, ведете активный образ жизни, и день расписан по минутам? Тогда Вам точно понравится сервис компании «Место под солнцем».</p>
+	                    	<p>Забудьте о пробках, о необходимости торопиться в салон после работы, стараясь успеть до закрытия. Вам больше не нужно подстраиваться под режим работы и расписание мастера. Наши специалисты окажут весь спектр услуг в комфортной обстановке и в удобное для Вас время.</p>
+	                    	<p>Меняйтесь легко вместе с нами!</p>
+	                    </div>
+	                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="sunplace_footer">
+    	<div class="flo_container_max_md flo_grid">
+    		<div class="flo_column_md_5">
+    			<div class="sunplace_footer_heading">Услуги</div>
+    			<ul class="flo_gridfit_4 sunplace_footer_service_menu">
+    				<li class="flo_column_simple"><a href="">Маникюр</a></li>
+    				<li class="flo_column_simple"><a href="">Педикюр</a></li>
+    				<li class="flo_column_simple"><a href="">Наращивание ресниц</a></li>
+    				<li class="flo_column_simple"><a href="">Дизайн бровей</a></li>
+    				<li class="flo_column_simple"><a href="">Депиляция</a></li>
+    				<li class="flo_column_simple"><a href="">Массаж</a></li>
+    				<li class="flo_column_simple"><a href="">Макияж</a></li>
+    				<li class="flo_column_simple"><a href="">Косоплетение и укладка волос</a></li>
+    			</ul>
+    		</div>
+    		<div class="flo_column_md_3">
+    			<div class="sunplace_footer_heading">Контакты</div>
+    			<div class="sunplace_footer_contacts_box">
+    				<a href="#">+7 (000) 000 0000</a>
+    				<a href="#">yandex@yandex.ru</a>
+    				<a href="#">г.Новосибирск ул.Уличная д.5</a>
+    			</div>
+    		</div>
+    		<div class="flo_column_md_4">
+    			<div class="sunplace_footer_heading">Социальные сети</div>
+    			<div class="sunplace_footer_socnetwork_box">
+	    			<a href="#"><i class="fab fa-instagram"></i></a>
+	    			<a href="#"><i class="fab fa-vk"></i></a>
+	    			<a href="#"><i class="fab fa-facebook-f"></i></a>
+	    		</div>
+    		</div>
+    	</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/sunplace.js"></script>
 </body>
+
 </html>
