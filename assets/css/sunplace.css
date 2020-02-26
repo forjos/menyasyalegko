@@ -6,6 +6,10 @@ body{
 	color: #313541;
 	line-height: 1.5;
 	font-size: 14px;
+	overflow-x: hidden;
+}
+.body_hidden{
+	overflow: hidden;
 }
 *{
 	box-sizing: border-box;
@@ -61,6 +65,11 @@ small, .text_small {font-size: 0.8em;}
 	padding: 0;
 	grid-gap: 10px;
 }
+@media screen and (max-width: 991px){
+	.sunplace_header_department{
+		display: none;
+	}
+}
 .sunplace_header_department_menu>li{
 	margin:0 27px;
 }
@@ -91,6 +100,77 @@ small, .text_small {font-size: 0.8em;}
 	margin-left:0;
 }
 
+/** hamburger **/
+.sunplace_hamburger_box{
+		display: none;
+}
+
+@media screen and (max-width: 991px){
+	.sunplace_hamburger_box{
+		display: block;
+    	z-index: 1000;
+    	position: relative;
+    	width: 50px;
+    	height: 50px;
+    	background: #FF8364;
+    	border-radius: 100%;
+    	margin-left: auto;
+}
+	.sunplace_header_nav_box{
+		display: flex;
+		visibility: hidden;
+		justify-content: center;
+		align-items: center;
+		position:fixed;
+		width:100vw;
+		height:100vh;
+		background-color:#F4F7FA;
+		z-index:999;
+		top:0;
+		left:0;
+		transform: translateX(150%);
+    	transition: .45s;
+	}
+	.sunplace_header_nav_active{
+		transform: translateX(0);
+		visibility: visible;
+	}
+	.sunplace_header_menu{
+		display:flex;
+		flex-direction:column;
+	}
+	.sunplace_header_menu>li{
+		margin: 10px 0;
+		text-align: center;
+		font-size: 2em;
+	}
+	.sunplace_hamburger_box{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	}
+	.sunplace_hamburger_line_wrapper>[class*='sunplace_hamburger_line']{
+		width:30px;
+		height:3px;
+		background-color:#ffffff;
+		margin:5px auto;
+	}
+	.sunplace_hamburger_box .sunplace_hamburger_line1{
+	transition:.35s
+	}
+	.sunplace_hamburger_box .sunplace_hamburger_line2{
+		transition:.35s
+	}
+	.sunplace_hamburger_box_acive .sunplace_hamburger_line1{
+		transform: rotate(225deg) translate(-4px, -3px);
+	}
+	.sunplace_hamburger_box_acive .sunplace_hamburger_line2{
+		transform: rotate(-225deg) translate(-2px, 2px);
+	}
+	.sunplace_hamburger_box_acive .sunplace_hamburger_line3{
+		display: none;
+	}
+}
 
 
 /*** content ****/
@@ -167,6 +247,11 @@ small, .text_small {font-size: 0.8em;}
 }
 .sunplace_steps>.flo_grid{
 	grid-gap: 50px;
+}
+@media screen and (max-width: 991px){
+	.sunplace_steps>.flo_grid{
+		grid-gap: 50px 0;
+	}
 }
 .sunplace_steps_box {
 	display: flex;

@@ -20,3 +20,13 @@ $(function(){
 		$('.sunplace_services_listimg_img').height($('.sunplace_services_listimg_img').width());
 	});
 });
+
+
+// hamburger
+type = "text/javascript" > jQuery(document).ready(function(jQuery) {
+    jQuery('.sunplace_hamburger_box').click(function(event) {
+        jQuery('.sunplace_header_nav_box').toggleClass('sunplace_header_nav_active');
+        jQuery('.sunplace_hamburger_box').toggleClass('sunplace_hamburger_box_acive');
+        jQuery('body').toggleClass('body_hidden');
+    });
+});
