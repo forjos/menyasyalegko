@@ -188,6 +188,11 @@ small, .text_small {font-size: 0.8em;}
 .sunplace_genmain_desc{
 	max-width: 370px;
 }
+@media screen and (max-width: 991px) {
+	.sunplace_genmain_desc {
+		max-width: 300px;
+	}
+}
 .sunplace_genmain_desc p{
 	margin: 0  0 1.25em 0;
 }
@@ -230,7 +235,7 @@ small, .text_small {font-size: 0.8em;}
 	background-position: center;
 	margin-bottom: 50px;
 }
-@media (max-width: 991px) {
+@media screen and (max-width: 991px) {
 	.sunplace_main_slide_content {
 		height: 450px;
 	}
