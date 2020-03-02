@@ -230,6 +230,11 @@ small, .text_small {font-size: 0.8em;}
 	background-position: center;
 	margin-bottom: 50px;
 }
+@media (max-width: 991px) {
+	.sunplace_main_slide_content {
+		height: 450px;
+	}
+}
 /** paginator **/
 .sunplace_main_slider_pagination .swiper-pagination-bullet{
 	background-color:transparent;
