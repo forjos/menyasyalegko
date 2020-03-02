@@ -433,6 +433,11 @@ small, .text_small {font-size: 0.8em;}
 .sunplace_footer{
 	padding:3em 0;
 }
+@media screen and (max-width: 640px) {
+	.sunplace_footer {
+		padding: 3em;
+	}
+}
 .sunplace_footer .flo_grid{
 	grid-gap:20px;
 }
