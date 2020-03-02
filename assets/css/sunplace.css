@@ -84,6 +84,11 @@ small, .text_small {font-size: 0.8em;}
 	display: flex;
 	justify-content: flex-end;
 }
+@media screen and (max-width: 480px){
+	.sunplace_header_corpprogramm{
+		display: none;
+	}
+}
 
 /** nav line **/
 .sunplace_header_menu_block{
