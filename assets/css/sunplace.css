@@ -412,6 +412,11 @@ small, .text_small {font-size: 0.8em;}
 		margin-top: 60px;
 	}
 }
+@media screen and (max-width: 640px) {
+	.sunplace_about_heading {
+		margin-top: 0;
+	}
+}
 .sunplace_about_subheading{
 	color: #FF8364;
 }
