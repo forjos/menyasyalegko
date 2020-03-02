@@ -359,6 +359,11 @@ small, .text_small {font-size: 0.8em;}
 	position: relative;
 	z-index: 10;
 }
+@media screen and (max-width: 991px) {
+	.sunplace_about_img_wraper {
+		transform: translate(90px, 0);
+	}
+}
 .sunplace_about_img{
 	height: 100%;
 	min-height: 340px;
