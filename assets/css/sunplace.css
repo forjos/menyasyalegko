@@ -379,6 +379,11 @@ small, .text_small {font-size: 0.8em;}
 		transform: translate(90px, 0);
 	}
 }
+@media screen and (max-width: 640px) {
+	.sunplace_about_img_wraper {
+		display: none;
+	}
+}
 .sunplace_about_img{
 	height: 100%;
 	min-height: 340px;
