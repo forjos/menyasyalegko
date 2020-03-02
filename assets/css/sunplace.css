@@ -185,12 +185,23 @@ small, .text_small {font-size: 0.8em;}
     max-width: 280px;
     margin:1.25em 0;
 }
+@media screen and (max-width: 480px) {
+	.sunplace_genmain_heading {
+		max-width: 300px;
+		margin: 1.25em auto;
+	}
+}
 .sunplace_genmain_desc{
 	max-width: 370px;
 }
 @media screen and (max-width: 991px) {
 	.sunplace_genmain_desc {
 		max-width: 300px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.sunplace_genmain_desc {
+		margin: auto;
 	}
 }
 .sunplace_genmain_desc p{
@@ -208,6 +219,14 @@ small, .text_small {font-size: 0.8em;}
     padding: 8px 80px;
     margin: 4em 0;
     cursor: pointer;
+}
+@media screen and (max-width: 480px) {
+	.sunplace_genmain_heading_box_form_btn {
+		display: block;
+		margin: 4em auto;
+		max-width: 100%;
+    	text-align: center;
+	}
 }
 /* slider */
 .sunplace_main_slider {
