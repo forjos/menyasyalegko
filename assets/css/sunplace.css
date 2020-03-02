@@ -434,6 +434,11 @@ small, .text_small {font-size: 0.8em;}
 .sunplace_footer .flo_grid>[class*="flo_column"]{
 	border-right:1px solid #DFE6EE;
 }
+@media screen and (max-width: 991px) {
+	.sunplace_footer .flo_grid>[class*="flo_column"] {
+		border-right: none;
+	}
+}
 .sunplace_footer .flo_grid>[class*="flo_column"]:last-child{
 	border:none;
 }
